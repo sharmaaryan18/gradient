@@ -1,0 +1,28 @@
+ .box{
+    border: 1px solid white;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to bottom,red,blue);
+    background-image: linear-gradient(to bottom right,red,blue);
+    background-image: linear-gradient(to bottom right,red,blue,green);
+    background-image: linear-gradient(to bottom right,red,blue,green); 
+ }
+ .Radial{
+   border: 1px solid white;
+   margin: 10px;
+   height: 300px;
+   width: 200px;
+   background-image:radial-gradient(circle,red,green,orange);
+   background-image:radial-gradient(red 20%,green 50%,orange 30%);
+ }
+
+ .flag{
+   border: 1px solid white;
+   margin: 10px;
+   height: 300px;
+   width: 200px;
+   background-image: linear-gradient(orange,green);
+
+ }
